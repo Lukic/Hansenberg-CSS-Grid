@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+
+section {
+  padding: 50px;
+  background-color: white;
+  margin: 100px;
+  border: 2px solid #999;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Shippori Mincho B1", serif;
+  font-size: 50px;
+  color: tomato;
+}
+
+.gallery-container {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.gallery-container div img {
+  width: 100%;
+}
+
+#gallery-standard {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#gallery-minmax {
+  grid-template-columns: 200px minmax(200px, 1fr) minmax(100px, 2fr) 200px;
+}
+
+#gallery-repeat {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#gallery-repeat-auto-fill {
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+#gallery-repeat-auto-fit {
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive CSS - Grid</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/responsive-grid.css" />
+  </head>
+  <body>
+    <section>
+      <h2>Galleri % vs fr</h2>
+      <div class="gallery-container" id="gallery-standard">
+        <div>
+          <img src="https://picsum.photos/seed/random_1/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_2/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_3/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_4/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_5/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_6/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_7/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_8/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_9/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_10/500/500" alt="" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Galleri minmax()</h2>
+      <div class="gallery-container" id="gallery-minmax">
+        <div>
+          <img src="https://picsum.photos/seed/random_1/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_2/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_3/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_4/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_5/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_6/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_7/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_8/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_9/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_10/500/500" alt="" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Galleri repeat()</h2>
+      <div class="gallery-container" id="gallery-repeat">
+        <div>
+          <img src="https://picsum.photos/seed/random_1/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_2/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_3/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_4/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_5/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_6/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_7/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_8/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_9/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_10/500/500" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Galleri repeat() : auto-fill</h2>
+      <div class="gallery-container" id="gallery-repeat-auto-fill">
+        <div>
+          <img src="https://picsum.photos/seed/random_1/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_2/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_3/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_4/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_5/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_6/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_7/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_8/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_9/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_10/500/500" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Galleri repeat() : auto-fit</h2>
+      <div class="gallery-container" id="gallery-repeat-auto-fit">
+        <div>
+          <img src="https://picsum.photos/seed/random_1/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_2/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_3/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_4/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_5/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_6/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_7/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_8/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_9/500/500" alt="" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/seed/random_10/500/500" alt="" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
