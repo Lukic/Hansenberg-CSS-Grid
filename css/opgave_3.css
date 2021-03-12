@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Global Styling */
+p {
+  font-size: 20px;
+}
+
+#grid-container {
+  display: grid;
+  margin: 100px auto;
+  width: 80%;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-template-rows: repeat(3, minmax(200px, 1fr));
+}
+
+#grid-container img {
+  width: 100%;
+}
+
+.box {
+  padding: 16px 10px;
+  box-sizing: border-box;
+}
+
+.box-with-header {
+  background-color: #006493;
+  border-bottom: 4px solid #00a39c;
+}
+
+.box-with-header h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.box-with-text {
+  background-color: #f2f8dd;
+  border-bottom: 4px solid #00a39c;
+}
+
+.box-with-footer {
+  background-color: #abe0d3;
+}
